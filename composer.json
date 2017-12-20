@@ -1,0 +1,18 @@
+{
+    "name": "silici0/googleparserfeed",
+    "description": "Parser in PHP to Google Merchant Feed",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Cunha",
+            "email": "silici0@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "silici0\\GoogleParserFeed\\" : "src/"
+        }
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable" : true
+}

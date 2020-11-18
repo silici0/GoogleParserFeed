@@ -9,7 +9,7 @@ Parse google merchant feed to array  PHP
 ## Installation
 
 ```
-composer required silici0/googleparserfeed:dev-master
+composer require silici0/googleparserfeed:dev-master
 ```
 
 

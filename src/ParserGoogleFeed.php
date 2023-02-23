@@ -5,8 +5,7 @@ use JsonSerializable;
 
 class ParserGoogleFeed extends SimpleXMLElement implements JsonSerializable 
 {
-
-    public function jsonSerialize()
+    public function jsonSerialize(): ?array
     {
         $array = array();
 

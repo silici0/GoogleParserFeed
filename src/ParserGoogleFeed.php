@@ -49,6 +49,7 @@ class ParserGoogleFeed extends SimpleXMLElement implements JsonSerializable
     }
 
     public function toArray() {
-        return (array) json_decode(json_encode($this));
+        $flags = (PHP_VERSION_ID >= 70300 ? JSON_THROW_ON_ERROR : 0);
+        return (array) json_decode(json_encode($this, false, 999, $flags), $flags);
     }
 }
